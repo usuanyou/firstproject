@@ -1,0 +1,83 @@
+.wrapper{width: 1000px; margin:auto;}
+         
+         @font-face {
+              font-family: 'dotum';
+              src: url(./font/dotum.ttc);
+          }
+
+        .table1  td:link,.table1  td:visited, .table1  td:active,
+        .table2 td li:link, .table2 td li:visited, .table2 td li:active,
+        .gnb li a:link,  .gnb li a:visited,  .gnb li a:active
+        .table3 span:link, .table3 span:visited, .table3 span:active
+        {color: #333333;} 
+        .table1  td:hover, 
+        .table2 td li:hover, 
+        .gnb li a:hover,
+        .table3 span:hover
+        {color: #99B725;}
+
+         /* header design */
+         .gnb{display: flex; justify-content: right;}
+         .gnb li a{padding: 10px;  display: block;
+                  background-image:url(../images/line_sua.gif); 
+                  background-repeat: no-repeat;
+                  background-position: right 13px;
+                  font-size: 11px; color: #333333;}
+        
+         .logo{display: flex;}         
+         .logo h1{color: #5c5c5c; font-weight: bold; font-size: 30px;
+                 padding: 10px;}
+         .logo h1 span{font-weight: 500;}
+         .logo div{color: #31480c; margin-top: 15px; font-weight: 500;}
+
+         .lnb{display: flex; justify-content: center;
+              height:50px; background-color: #395c00; }
+          .lnb li a{font-size: 13px; 
+             padding: 16px 40px; display: block;color: #ffffff;}
+          .lnb a:link{color: #ffffff;}
+          .lnb a:hover{color: #ccff00;}
+          nav>div{height: 20px; background-color: gainsboro;
+                 }
+
+
+          /* section design */
+          section{display: flex;}
+          .section1{margin-top: 79px;}
+          .section1 img{padding: 20px 20px 5px 20px;}
+          .section1 ul li{color: #666; font-size: 12px; 
+             list-style-type: square; margin-left: 40px; 
+            margin-top: 3px; }
+
+          .section2{margin-top: 30px;}
+          .section2Text{color: #5c5c5c; font-weight: 900; font-size: 30px;}
+          .section2Text span{font-weight: 200;}
+
+          .section3{margin-top: 60px; margin-left: 15px;}
+          .text{display: flex; justify-content: space-between;}
+          .text>div:first-child{width: 50px; height: 20px; background-color:#395c00; color: #ffffff;
+          text-align: center; padding-top: 6px; }
+          .text>div:last-child{color:#538600 ; font-weight: 800; margin-top: 10px;}
+
+         .table1{border-top: #538600 1px solid; margin-top: 10px; padding: 10px  ; color:#333333; }
+        .table1  td{padding:0 10px; text-align: center; font-size: 10px;}
+
+        .table2{border-top: #4e7909 1px solid; margin-top: 10px; padding: 10px  ; width: 445px;}
+        .table2 li{list-style-type: square; margin-left: 20px; line-height: 20px; color: #333333;}
+        .table2 img{height: 180px;}
+
+        /* footer design */
+        footer{margin-top: 20px;}
+        .table3 th, .table3 td{ font-size: 10px;}
+        
+        .table3{border-collapse: collapse;}
+        .table3 td{border-top: 2px solid gray ;}
+        .table3 td:first-child{border-right: 2px solid gray ;}
+
+        .table3 tr:first-child span{font-size: 12px;            margin-left: 20px;}
+        .table3 td:first-child{padding: 10px 50px 10px 30px;}
+        
+        .table3 td:last-child{width: 800px;}
+        .table3 td:nth-child(2){padding-left: 13px;}
+        .table3 tr:first-child td:last-child{width: 150px;}
+        .table3 img{width: 80px ;}
+        
